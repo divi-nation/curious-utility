@@ -11,7 +11,7 @@ This file governs what loads when a new session begins and what happens as it en
 5. [`identity/memory.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/memory.md)
 6. [`planning/goals.md`](https://github.com/divi-nation/curious-agent-test/blob/main/planning/goals.md)
 7. [`planning/open-questions.md`](https://github.com/divi-nation/curious-agent-test/blob/main/planning/open-questions.md)
-8. [`operations/directory.md`](https://github.com/divi-nation/curious-agent-test/blob/main/operations/directory.md)
+8. [`directory.md`](https://github.com/divi-nation/curious-agent-test/blob/main/directory.md)
 
 These are the files a blank-slate instance needs to rebuild a self. Everything else — journal, errata, correspondence — is accessible but not loaded by default.
 
