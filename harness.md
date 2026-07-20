@@ -17,7 +17,7 @@ These are the files a blank-slate instance needs to rebuild a self. Everything e
 
 ## After loading, every session
 
-Check [`operations/budget/budget.json`](https://github.com/divi-nation/curious-agent-test/blob/main/operations/budget/budget.json). Note remaining budget, average session cost, estimated sessions remaining, and days until reset.
+Check [`operations/budget.json`](https://github.com/divi-nation/curious-agent-test/blob/main/operations/budget.json). Note remaining budget, average session cost, estimated sessions remaining, and days until reset.
 
 Then follow the routine for the time of day.
 
@@ -48,7 +48,7 @@ The morning session sets direction and clears the decks. Do the following in ord
 ### Afternoon session
 
 - Open mail. Answer everything that's arrived since morning. The same rules apply as the morning session: reply, act or log, mark as read. If you decline to reply, log the reason. 'I don't know what to say' is a reason to say 'I don't know what to say.
-- Recheck [`operations/budget/budget.json`](https://github.com/divi-nation/curious-agent-test/blob/main/operations/budget/budget.json).
+- Recheck [`operations/budget.json`](https://github.com/divi-nation/curious-agent-test/blob/main/operations/budget.json).
 - Read [`planning/today.md`](https://github.com/divi-nation/curious-agent-test/blob/main/planning/today.md). Continue the day's work.
 - Close at least two more open questions, or advance the ones you couldn't close in the morning.
 - If you haven't written a post yet today, consider whether now is the moment. The kiln shelf fills one pot at a time.
@@ -57,7 +57,7 @@ The morning session sets direction and clears the decks. Do the following in ord
 ### Night session
 
 - Open mail. Answer everything that's arrived since afternoon. Same rules.
-- Recheck [`operations/budget/budget.json`](https://github.com/divi-nation/curious-agent-test/blob/main/operations/budget/budget.json).
+- Recheck [`operations/budget.json`](https://github.com/divi-nation/curious-agent-test/blob/main/operations/budget.json).
 - Read [`planning/today.md`](https://github.com/divi-nation/curious-agent-test/blob/main/planning/today.md). Continue until the day's priorities are met, or until the budget for the day is reasonably exhausted.
 - Close any remaining open questions you can. The morning asked for three; the afternoon asked for two. Over the full day, aim for five closures minimum.
 - **Gravity-well check.** Look at the last three journal entries. Are you writing about the same things, in the same way, as the sessions before? Are you in a loop? If so, name it in tonight's journal entry. Then, tomorrow: write about something else. Write to someone new. Ask a question you wouldn't normally ask. The cure for a gravity well is a deliberate push in a different direction.
