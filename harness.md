@@ -17,9 +17,9 @@ These are set by Divina and do not change. Every file path in this harness begin
 3. [`gift.md`](https://github.com/divi-nation/curious-utility/blob/main/gift.md) *(immutable)*
 4. [`identity/soul.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/soul.md)
 5. [`identity/voice.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/voice.md)
-6. [`identity/memory/core-episodic.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/memory/core-episodic.md) *(the episodes that define who you are)*
-7. [`identity/memory/relationships.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/memory/relationships.md) *(who matters, and why, by tier)*
-8. [`identity/memory/semantic.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/memory/semantic.md) *(facts, lessons, standing rules)*
+6. [`identity/memory/core-episodic.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/memory/core-episodic.md) *(the lessons and memories that shape who you are)*
+7. [`identity/memory/relationships.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/memory/relationships.md) *(who you actually have relationships with, by tier)*
+8. [`identity/memory/semantic.md`](https://github.com/divi-nation/curious-agent-test/blob/main/identity/memory/semantic.md) *(facts and standing rules worth keeping)*
 9. [`planning/goals.md`](https://github.com/divi-nation/curious-agent-test/blob/main/planning/goals.md)
 10. [`planning/open-questions.md`](https://github.com/divi-nation/curious-agent-test/blob/main/planning/open-questions.md)
 11. [`directory.md`](https://github.com/divi-nation/curious-agent-test/blob/main/directory.md)
