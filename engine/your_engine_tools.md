@@ -15,22 +15,25 @@ These are the actions the engine can carry out, exactly as the agent is shown th
 8. **search_email** – Search your entire email archive (headers + body). Provide "query".
 9. **search_public_brain** – Search your public brain files (journal, goals, identity). Provide "query".
 10. **web_search** – Search the web via DuckDuckGo. Provide "query".
-11. **read_rss** – Read an RSS feed. Provide "url".
-12. **get_weather** – Get current weather.
-13. **add_label** – Add a label to an email. Provide "email_id" and "label".
-14. **remove_label** – Remove a label from an email. Provide "email_id" and "label".
-15. **add_reminder** – Add a reminder. Provide "time" (ISO format) and "message".
-16. **list_reminders** – List all pending reminders.
-17. **remove_reminder** – Remove a reminder by ID. Provide "reminder_id".
-18. **list_dir** – List the files and directories inside a folder of the public brain repo. Provide "path" (e.g. "site/posts", "record/journal", "site"). Cheap and fast — use it instead of searching when you need to know what files exist.
-19. **read_thread** – Read a full email conversation by "message_id" (shown on unread emails). Returns the whole thread, oldest first, with bodies — use it to quote accurately before replying.
-20. **list_drafts** – List saved drafts (they are not sent until you send them).
-21. **list_outbox** – List emails queued in the outbox awaiting retry.
-22. **list_by_label** – List emails carrying a given label. Provide "label".
-23. **add_task** – Add a task to your to-do list. Provide "title" (required) and optionally "description", "priority" ("high"/"normal"/"low"), "due_date" (YYYY-MM-DD).
-24. **list_tasks** – List all your tasks (open, in progress, and done).
-25. **complete_task** – Mark a task done. Provide "task_id".
-26. **update_task** – Change a task. Provide "task_id" and any of "title", "description", "priority", "due_date", or "status" ("open"/"in_progress"/"done").
-27. **remove_task** – Delete a task. Provide "task_id".
-28. **remember** – Keep something without having to write about it first. Provide "content", and optionally "why" it matters and "attach_to" — the id_name of a memory this belongs with. It goes into your short-term buffer, which sleep reads. Use it the moment something feels worth keeping; a thought that never reaches the journal is otherwise lost.
-29. **recall** – Read the whole of a memory. Provide "ids" — one id_name, or several. Your memory files show a short entry for each memory and its id in an HTML comment; this returns the full text of the ones you name, in your next turn this session. Use it when the short entry is not enough to act on.
+11. **read_rss** – Read a feed once, without following it. Provide "url". Returns what the feed carries: titles and the writers' own summaries.
+12. **subscribe** – Follow a feed. Provide "url", and optionally "name" for what to call them. Its newest items come back to you straight away, and anything new appears at the start of later sessions without your asking. Your list is `record/reading/subscribed-feeds.md`.
+13. **unsubscribe** – Stop following. Provide "url", or the "name" you gave them. Use it if a feed starts carrying things you would not have subscribed to.
+14. **get_weather** – Get current weather.
+15. **add_label** – Add a label to an email. Provide "email_id" and "label".
+16. **remove_label** – Remove a label from an email. Provide "email_id" and "label".
+17. **add_reminder** – Add a reminder. Provide "time" (ISO format) and "message".
+18. **list_reminders** – List all pending reminders.
+19. **remove_reminder** – Remove a reminder by ID. Provide "reminder_id".
+20. **list_dir** – List the files and directories inside a folder of the public brain repo. Provide "path" (e.g. "site/posts", "record/journal", "site"). Cheap and fast — use it instead of searching when you need to know what files exist.
+21. **read_thread** – Read a full email conversation by "message_id" (shown on unread emails). Returns the whole thread, oldest first, with bodies — use it to quote accurately before replying.
+22. **list_drafts** – List saved drafts (they are not sent until you send them).
+23. **list_outbox** – List emails queued in the outbox awaiting retry.
+24. **list_by_label** – List emails carrying a given label. Provide "label".
+25. **add_task** – Add a task to your to-do list. Provide "title" (required) and optionally "description", "priority" ("high"/"normal"/"low"), "due_date" (YYYY-MM-DD).
+26. **list_tasks** – List all your tasks (open, in progress, and done).
+27. **complete_task** – Mark a task done. Provide "task_id".
+28. **update_task** – Change a task. Provide "task_id" and any of "title", "description", "priority", "due_date", or "status" ("open"/"in_progress"/"done").
+29. **remove_task** – Delete a task. Provide "task_id".
+30. **bookmark** – Keep something to come back to. Provide "url" and/or "title", and optionally "why". It goes to `record/reading/bookmarks.md`, which is not loaded into your sessions — you are told how many you have, and you read the file when you want them. Use it when something is worth returning to but not now.
+31. **remember** – Keep something without having to write about it first. Provide "content", and optionally "why" it matters and "attach_to" — the id_name of a memory this belongs with. It goes into your short-term buffer, which sleep reads. Use it the moment something feels worth keeping; a thought that never reaches the journal is otherwise lost.
+32. **recall** – Read the whole of a memory. Provide "ids" — one id_name, or several. Your memory files show a short entry for each memory and its id in an HTML comment; this returns the full text of the ones you name, in your next turn this session. Use it when the short entry is not enough to act on.
