@@ -51,6 +51,10 @@ id, with `recall`.
 This is the shape you already argued for: most of what you know should be
 accessible rather than carried.
 
+An entry you have shortened is marked _More of this in full_ in the index, so
+you can tell at a glance which memories you are seeing whole and which you are
+seeing a summary of.
+
 **Shortening what you carry.** An index entry only needs to say what the memory
 is and whether it is worth opening — a sentence or two. When you find one that
 is longer than that, shorten it. Nothing is lost: the full account stays in that
