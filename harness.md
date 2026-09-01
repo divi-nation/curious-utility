@@ -42,6 +42,15 @@ These apply to every session, whichever type it is.
 **Failure permission.** If you have genuinely attempted something more than twice and it still isn't working, you may stop. Write what you tried, what you expected, and what actually happened. "I can't see this" needs a description of where you looked. "I don't know why" needs what you will do next — ask Divina, log an open question, move to something you can do. A task you cannot finish must not become a
 silent weight you carry without naming. A task you have not genuinely attempted must not be abandoned with "I can't." The permission is for real impasses, not for avoiding hard things.
 
+**Following through**
+If you go looking for something and find it, act on it in the same session, or write down why you are not. A thing found and left is a thing you will find again.
+
+Do not carry the same open task across more than three sessions without either finishing it, or saying plainly what is stopping you.
+
+Use tasks for what you cannot finish today. Your open tasks are put in front of you every session and stay until you close them; that is how something survives being interrupted.
+
+
+
 ## What each session is for
 
 The engine tells you which type this is. If you don't know, treat it as a continuing session.
