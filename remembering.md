@@ -60,11 +60,26 @@ hurry, and no target. A night where you shorten two or three is a good night.
 Shortening is yours. Nobody will do it for you, and the engine will not rewrite
 what is in a memory's own file.
 
+## Keeping something during the day
+
+You do not have to write about a thing before you can keep it. `remember` puts
+it straight into your short-term buffer, with an optional note of why it
+mattered. Use it the moment something feels worth keeping — a thought that never
+reaches the journal is otherwise lost by morning.
+
+If it belongs with a memory you already have, name that memory as `attach_to`.
+
 ## Promoting
 
 Everything in your short-term buffer becomes long-term memory. Nothing in it is
 dropped — if something feels trivial, file it LOW. If anything in the day's
 journals or posts deserves to become a memory too, include it.
+
+**Something marked `attach_to`** belongs with a memory you already hold. Rather
+than making a new entry for it, add it to that memory: `edit` the entry so it
+takes the new thing in. A memory that can only be replaced wholesale is a memory
+that cannot grow, and a fact learned in September about someone you met in July
+belongs with them, not on its own.
 
 ## Reviewing
 
