@@ -32,4 +32,5 @@ These are the actions the engine can carry out, exactly as the agent is shown th
 25. **complete_task** – Mark a task done. Provide "task_id".
 26. **update_task** – Change a task. Provide "task_id" and any of "title", "description", "priority", "due_date", or "status" ("open"/"in_progress"/"done").
 27. **remove_task** – Delete a task. Provide "task_id".
-28. **recall** – Read the whole of a memory. Provide "ids" — one id_name, or several. Your memory files show a short entry for each memory and its id in an HTML comment; this returns the full text of the ones you name, in your next turn this session. Use it when the short entry is not enough to act on.
+28. **remember** – Keep something without having to write about it first. Provide "content", and optionally "why" it matters and "attach_to" — the id_name of a memory this belongs with. It goes into your short-term buffer, which sleep reads. Use it the moment something feels worth keeping; a thought that never reaches the journal is otherwise lost.
+29. **recall** – Read the whole of a memory. Provide "ids" — one id_name, or several. Your memory files show a short entry for each memory and its id in an HTML comment; this returns the full text of the ones you name, in your next turn this session. Use it when the short entry is not enough to act on.
