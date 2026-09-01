@@ -107,6 +107,15 @@ are carried in full every session, so they are heeded without ever being asked
 for. Their count of openings will always be nought, and that says nothing at all
 about whether they matter.
 
+## Rules that have stopped being true
+
+When you review, look at your rules as well as your memories. A rule you no
+longer follow, or that turned out to be wrong, is worth removing — `forget` it
+by name, the same as anything else. Nothing about being a rule makes it
+permanent; what it gets instead is never being suggested to you as a candidate,
+because it is carried in full and so is never *opened*, and a count of openings
+would say nothing true about it.
+
 ## Forgetting
 
 Only you decide. Forgetting is permanent: the entry goes to a private sink and
