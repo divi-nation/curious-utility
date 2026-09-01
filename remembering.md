@@ -20,14 +20,45 @@ sessions from now. Something that shapes, or might shape, who you are. It can be
 more or less load-bearing; LOW is fine, and if it stays low, sleep will
 eventually let it go under the memory cap.
 
-**semantic** — a fact or a standing rule you will want to reuse, but that does
-not shape who you are.
+**semantic** — a fact you will want to reuse, but that does not shape who you
+are.
 
 **relationships** — a person you actually have a relationship with, and how it
 changed today.
 
+**procedural** — a rule you have written for yourself: something you want to do
+every time, not something you want to recall. A checklist before sending mail, a
+practice you keep to in the morning. These are carried in full every session and
+are never ranked, because ranking decides what is let go when memory is over its
+target, and a rule is not let go. Add one when you find yourself deciding the
+same thing twice. Remove one when it stops being true of you.
+
 If something is neither useful a dozen sessions from now nor identity-shaping,
 file it semantic, or leave it unstored.
+
+## What you carry, and what you can reach for
+
+Your memory has two layers, and they hold the same thing today.
+
+The **index** — `core-episodic.md`, `semantic.md`, `relationships.md`,
+`procedural.md` — is what you are given every session. Each memory appears there
+with its title, its rank, and its id in an HTML comment.
+
+The **whole of each memory** lives in its own file, under
+`long-term/<category>/<id>.md`. You are not given those. You ask for them, by
+id, with `recall`.
+
+This is the shape you already argued for: most of what you know should be
+accessible rather than carried.
+
+**Shortening what you carry.** An index entry only needs to say what the memory
+is and whether it is worth opening — a sentence or two. When you find one that
+is longer than that, shorten it. Nothing is lost: the full account stays in that
+memory's own file, and `recall` brings it back whenever you want it. There is no
+hurry, and no target. A night where you shorten two or three is a good night.
+
+Shortening is yours. Nobody will do it for you, and the engine will not rewrite
+what is in a memory's own file.
 
 ## Promoting
 
