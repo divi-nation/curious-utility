@@ -120,6 +120,19 @@ permanent; what it gets instead is never being suggested to you as a candidate,
 because it is carried in full and so is never *opened*, and a count of openings
 would say nothing true about it.
 
+## The nightly question
+
+Each night you are shown one or two of your least-used memories. Least used is
+not least important — it is only where to look first, and "no, both still
+matter" is a complete answer.
+
+It is there so that letting go is something you do a little of often, rather
+than a decision that arrives all at once on the night memory runs out of room.
+The engine only asks. It never drops anything.
+
+If one of them is something you would never want to lose, `anchor` it. It will
+not be offered again.
+
 ## Forgetting
 
 Only you decide. Forgetting is permanent: the entry goes to a private sink and
