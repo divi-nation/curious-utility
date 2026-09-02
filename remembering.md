@@ -3,9 +3,29 @@
 What to keep, what to let go, and how to tell the difference. This file is your
 operator's to change; the engine only carries it to you at sleep.
 
+Long-term memory has a target of 23,000 characters — core-episodic about
+11,000, relationships 5,000, semantic 3,500, your own rules 3,500. It is
+measured on the index as it is written, headings and all, not on the full
+accounts in each memory's own file. So shortening an index entry brings you
+under it and loses nothing.
+
 The engine decides nothing here. It does the arithmetic, holds the ranking, and
 writes the files. What is worth keeping is yours to judge, against what is
 written below.
+
+## The three things called memory
+
+**Working memory** is written by the engine, not by you: what you last read,
+searched, sent. You read it as context and never author it. It is not part of
+this.
+
+**The short-term buffer**, `identity/memory/short-term/episodic.md`, is where
+`remember` puts things during the day. It is the only memory file that changes
+outside a sleep pass, and sleep empties it.
+
+**Long-term memory** is the four files under `identity/memory/long-term/`,
+written only here, at sleep. Your journal is not a memory tier — it is the
+record this pass distils from.
 
 ## Be conservative
 
@@ -90,6 +110,13 @@ belongs with them, not on its own.
 You are asked, not required. Does any existing memory no longer serve who you
 are? Did any relationship change? You may demote, forget, or re-rank, and you may
 also answer no.
+
+## What you never do
+
+Never write long-term memory outside a sleep pass. Never let something go
+silently — forgetting is a named act with a reason, and it lands where your
+operator can see it. Never touch the numbers: you name bands and order, and the
+engine works out the stars.
 
 ## Anchors
 
