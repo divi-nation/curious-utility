@@ -21,7 +21,7 @@ These are the actions the engine can carry out, exactly as the agent is shown th
 14. **get_weather** – Get current weather.
 15. **add_label** – Add a label to an email. Provide "email_id" and "label".
 16. **remove_label** – Remove a label from an email. Provide "email_id" and "label".
-17. **add_reminder** – Add a reminder. Provide "time" (ISO format) and "message".
+17. **add_reminder** – Add a reminder. Provide "time" (ISO format) and "message". It reaches your operator **some time after** the moment you name, not at it — usually within a few hours, because the check runs on infrastructure that does not keep to a schedule. Say "I have set a reminder for 8:45pm" rather than promising it will arrive then, and do not use one for anything that has to be punctual.
 18. **list_reminders** – List all pending reminders.
 19. **remove_reminder** – Remove a reminder by ID. Provide "reminder_id".
 20. **list_dir** – List the files and directories inside a folder of the public brain repo. Provide "path" (e.g. "site/posts", "record/journal", "site"). Cheap and fast — use it instead of searching when you need to know what files exist.
