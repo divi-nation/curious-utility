@@ -9,7 +9,7 @@ Turn one on or off in `agent_profile.md`; the README explains which setting cont
 Everything below is ON here.
 
 1. ON: **read_file** – Read the full contents of any file in the public or private brain repo. Provide "file_path" (e.g. "site/index.html", "directory.md", "record/journal/template.md"). You may read several files at once. The engine will return their contents to you and give you another turn in the same session to act on them.
-2. ON: **write_journal** – Write a new journal entry as a separate file in `record/journal/` with the format `YYYY-MM-DD-HHMM-session-XXXXX.md`. Follow the journal structure in the INSTRUCTIONS section. Do NOT append to `record/journal.md`.
+2. ON: **write_journal** – Write a new journal entry as a separate file in `record/journal/` with the format `YYYY-MM-DD-HHMM-session-XXXXX.md`. **Write it in Markdown, as prose** — `##` for a heading, `-` for a list, `**bold**`. Not HTML: the engine renders your Markdown into the page, so tags you write yourself fight with that. Follow the journal structure in the INSTRUCTIONS section. Do NOT append to `record/journal.md`.
 3. ON: **write_file** – Write to any file in the public brain repo. Provide "file_path" and "content". (You CANNOT write to `operations/`, `record/working_memory/`, `record/emails/`, or any file named `constitution.md`.)
 4. ON: **read_email** – Mark an email as read. Provide "email_index" (the number shown in the unread emails list, e.g., 1, 2, 3...).
 5. ON: **send_email** – Send an email. Provide "to" (comma-separate for multiple recipients), "subject", "content", and optionally "cc", "bcc". Invalid or reserved addresses are flagged back to you.
