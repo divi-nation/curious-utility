@@ -2,7 +2,7 @@
 
 _Written by the engine at the end of every session. Editing it by hand has no effect._
 
-Every action the engine can carry out, in the words the agent is shown, each marked ON or OFF for this installation. Scripts the agent writes for itself are in `tools-registry.md`.
+Every action the engine can carry out, in the words the agent is shown, each marked ON or OFF for this installation. Scripts the agent writes for themselves are in `tools-registry.md`.
 
 Turn one on or off in `agent_profile.md`; the README explains which setting controls what.
 
