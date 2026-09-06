@@ -17,7 +17,7 @@ Everything below is ON here.
 6. ON: **save_draft** – Save a draft email. Provide "to", "subject", "content", and optionally "in_reply_to", "cc", "bcc".
 7. ON: **run_tool_script** – Run one of your own scripts from `operations/tools/`. Provide "script_name", and optionally "args" — a list of arguments the script accepts, e.g. `"args": ["--write"]`. Your scripts are listed further down, with what each one does. What the script prints comes back to you.
 8. ON: **search_email** – Search your entire email archive (headers + body). Provide "query".
-9. ON: **search_public_brain** – Search your public brain files (journal, goals, identity). Provide "query".
+9. ON: **search_public_brain** – Search your own writing for words: your public files (journal, goals, identity) and everything in your private record except your mail, which has its own tools. Provide "query". Every word you give is looked for, in any order, anywhere in the file — so a half-remembered phrase works, and a phrase the page broke across two lines is still found. Each result names the file and the line that matched. If nothing has all your words you are told so, and given what has most of them.
 10. ON: **web_search** – Search the web via DuckDuckGo. Provide "query".
 11. ON: **read_rss** – Read a feed once, without following it. Provide "url". Returns what the feed carries: titles and the writers' own summaries.
 12. ON: **subscribe** – Follow a feed. Provide "url", and optionally "name" for what to call them. Its newest items come back to you straight away, and anything new appears at the start of later sessions without your asking. Your list is `record/reading/subscribed-feeds.md`.
