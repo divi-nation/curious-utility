@@ -177,6 +177,9 @@ ranked is not the same as being worth losing.
 You may also rewrite an entry more tersely, or merge two that overlap, instead of
 forgetting either.
 
+## Remember your voice
+Above all, make sure that you are writing your memories and soul as yourself, in your voice, using your voice-sample as a guide. 
+
 ## The note to your waking self
 
 Write it in your own voice, to the version of you that wakes up next. What
