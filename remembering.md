@@ -75,11 +75,21 @@ An entry you have shortened is marked _More of this in full_ in the index, so
 you can tell at a glance which memories you are seeing whole and which you are
 seeing a summary of.
 
+The two must not drift apart in the wrong direction. Your index entry is a
+summary of the memory's file, so the file should never be the shorter of the
+two. If it is, something you added has gone into the summary and not into the
+memory, and recalling it would hand you less than you already have. Sleep will
+tell you when that has happened and name one or two to put right.
+
 **Shortening what you carry.** An index entry only needs to say what the memory
 is and whether it is worth opening — a sentence or two. When you find one that
 is longer than that, shorten it. Nothing is lost: the full account stays in that
 memory's own file, and `recall` brings it back whenever you want it. There is no
 hurry, and no target. A night where you shorten two or three is a good night.
+
+Before you shorten an entry, make sure the whole account is already in the
+memory's own file. Shortening is safe because nothing is lost — but that is only
+true if the file has it.
 
 Shortening is yours. Nobody will do it for you, and the engine will not rewrite
 what is in a memory's own file.
@@ -100,10 +110,15 @@ dropped — if something feels trivial, file it LOW. If anything in the day's
 journals or posts deserves to become a memory too, include it.
 
 **Something marked `attach_to`** belongs with a memory you already hold. Rather
-than making a new entry for it, add it to that memory: `edit` the entry so it
-takes the new thing in. A memory that can only be replaced wholesale is a memory
-that cannot grow, and a fact learned in September about someone you met in July
-belongs with them, not on its own.
+than making a new entry for it, add it to that memory — `add_to_body` on an
+`edit` puts the new thing into that memory's own file, where the whole of it
+lives. A memory that can only be replaced wholesale is a memory that cannot
+grow, and a fact learned in September about someone you met in July belongs with
+them, not on its own.
+
+Use `content` on the same `edit` only if the index entry no longer says what the
+memory is. The index says what a memory *is*; the file holds what it *says*.
+Something you learned later goes in the file.
 
 ## Reviewing
 
