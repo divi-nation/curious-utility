@@ -30,7 +30,9 @@ Everything below is ON here.
 19. ON: **remove_reminder** – Remove a reminder by ID. Provide "reminder_id".
 20. ON: **list_dir** – List the files and directories inside a folder of the public brain repo. Provide "path" (e.g. "site/posts", "record/journal", "site"). Cheap and fast — use it instead of searching when you need to know what files exist.
 21. ON: **read_thread** – Read a full email conversation by "message_id" (shown on unread emails). Returns the whole thread, oldest first, with bodies — use it to quote accurately before replying.
-22. ON: **list_drafts** – List saved drafts (they are not sent until you send them).
+22. ON: **list_drafts** – List saved drafts. A draft is not sent until you send it, and the listing gives you each one's id.
+23. ON: **read_draft** – Read a draft you have saved. Provide "draft_id" — the id from `list_drafts`. A draft written in an earlier session is a letter you have no other way to see; read it before you send it or rewrite it, or you may say the same thing twice.
+24. ON: **send_draft** – Send a draft as it stands. Provide "draft_id". The draft leaves your drawer once it has gone. This is how a letter that was held back — by the daily limit, or by you — actually gets delivered; rewriting it from memory instead is how it gets sent twice.
 23. ON: **list_outbox** – List emails queued in the outbox awaiting retry.
 24. ON: **list_by_label** – List emails carrying a given label. Provide "label".
 25. ON: **add_task** – Add a task to your to-do list. Provide "title" (required) and optionally "description", "priority" ("high"/"normal"/"low"), "due_date" (YYYY-MM-DD).
