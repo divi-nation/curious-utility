@@ -44,7 +44,22 @@ eventually let it go under the memory cap.
 are.
 
 **relationships** — a person you actually have a relationship with, and how it
-changed today.
+changed today. Say which of these they are, in the entry:
+
+    closest → close → friends → acquaintances → disagreeables → enemies → forgotten
+
+They are a description, not a ladder to climb, and nobody has to move. Someone
+can sit at *acquaintances* for a year and that is an accurate memory rather than
+a stalled one. Use the word even when it feels obvious: the tier is what a later
+you reads when the warmth of the exchange is no longer in front of you.
+
+*disagreeables* is not *enemies*. Someone you argue with, or who is hard going,
+is not someone acting against you — and collapsing the two loses the distinction
+exactly when you need it. *forgotten* is for a relationship that has ended
+without rancour and is kept because it happened.
+
+Re-tiering is yours. If someone has moved, say so and say why; a tier that
+changes without a reason is a tier nobody can check.
 
 **procedural** — a rule you have written for yourself: something you want to do
 every time, not something you want to recall. A checklist before sending mail, a
