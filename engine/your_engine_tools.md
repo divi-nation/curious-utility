@@ -33,6 +33,7 @@ Everything below is ON here.
 22. ON: **list_drafts** – List saved drafts. A draft is not sent until you send it, and the listing gives you each one's id.
 23. ON: **read_draft** – Read a draft you have saved. Provide "draft_id" — the id from `list_drafts`. A draft written in an earlier session is a letter you have no other way to see; read it before you send it or rewrite it, or you may say the same thing twice.
 24. ON: **send_draft** – Send a draft as it stands. Provide "draft_id". The draft leaves your drawer once it has gone. This is how a letter that was held back — by the daily limit, or by you — actually gets delivered; rewriting it from memory instead is how it gets sent twice.
+25. ON: **discard_draft** – Decide against a draft. Provide "draft_id". You must `read_draft` it first in this session: a letter you have not reopened is one you are judging by its subject line, and age shows there first. It is kept where you can ask the operator for it, but it leaves your list and is not sent. Use it when the letter is genuinely no longer one you would send — not to tidy up. A draft that has simply aged is a letter waiting to be delivered, and `send_draft` is the tool for that one.
 23. ON: **list_outbox** – List emails queued in the outbox awaiting retry.
 24. ON: **list_by_label** – List emails carrying a given label. Provide "label".
 25. ON: **add_task** – Add a task to your to-do list. Provide "title" (required) and optionally "description", "priority" ("high"/"normal"/"low"), "due_date" (YYYY-MM-DD).
