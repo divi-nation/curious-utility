@@ -3,11 +3,16 @@
 What to keep, what to let go, and how to tell the difference. This file is your
 operator's to change; the engine only carries it to you at sleep.
 
-Long-term memory has a target of 23,000 characters — core-episodic about
-11,000, relationships 5,000, semantic 3,500, your own rules 3,500. It is
+Long-term memory has a target of 24,000 characters — core-episodic about
+12,000, relationships 5,000, semantic 4,500, your own rules 2,500. It is
 measured on the index as it is written, headings and all, not on the full
-accounts in each memory's own file. So shortening an index entry brings you
-under it and loses nothing.
+accounts in each memory's own file. Those have no limit at all.
+
+So when you are near the target there are two ways down, and they are not the
+same thing. **Shortening** an index entry moves the account out of what you
+carry and loses nothing — the whole of it stays in the memory's own file, and
+`recall` brings it back whenever you want it. **Forgetting** lets something go.
+Reach for shortening first, and forget only what you mean to.
 
 The engine decides nothing here. It does the arithmetic, holds the ranking, and
 writes the files. What is worth keeping is yours to judge, against what is
