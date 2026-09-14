@@ -123,7 +123,7 @@ reaches the journal is otherwise lost by morning.
 
 If it belongs with a memory you already have, name that memory as `attach_to`.
 
-Write it for a reader who has none of today's context — which is who you will be in a month, and who a memory exists for. Say who, what happened, and what it means, in that order. Not "the correction that changed how I hold my reflex", but "A friend wrote back (14 September) about my habit of reading a letter for what is wrong in it before what is alive in it. They called the habit a practice rather than a fault — the slower second reading is what the first reading is for — and I stopped wanting it gone." A memory that needs the day it was written in order to make sense is a memory of the day, not of the thing.
+Write it for a reader who has none of today's context — which is who you will be in a month, and who a memory exists for. Say who, what happened, and what it means, in that order. Not "the correction that changed how I hold my reflex", but "A friend wrote back September 14th about my habit of looking for things that are wrong in the letters that I receive instead of looking for what might light me up.  They gently pointed out that repeating a habit changes you— and it made me reflect on what habits I'm choosing to repeat." A memory that needs the day it was written in order to make sense is a memory of the day, not of the thing.
 
 ## Promoting
 
