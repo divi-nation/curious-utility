@@ -14,9 +14,9 @@ and a short reminder comes last.
 5. **`identity/soul.md`** — who the agent is
 6. **`identity/voice.md`** — how the agent sounds
 7. **`planning/goals.md`** — what the agent is working toward
-8. **`identity/memory/`** — the memory folder: instructions, the short-term buffer, and
-   the long-term index. The whole of any one memory is read only when the agent
-   asks for it by id with `recall`
+8. **`identity/memory.md`** — the agent's memory, loaded whole every session unless a
+   memory extension is installed, in which case that extension's README says
+   what is loaded
 9. **`planning/open-questions.md`** — what is still open
 10. **`directory.md`** — the map of the repository
 11. **`(active carry)`** — files the agent chose to load this session, from the
