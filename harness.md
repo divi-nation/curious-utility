@@ -47,7 +47,7 @@ from someone you know, a subject you have written on before, a task you are
 picking up again. The engine tells you each round how many you are holding
 shorter than in full, and how many you have opened.
 
-**Warm-up.** Read [`identity/voice-sample.md`](identity/voice-sample.md). Then write one paragraph with the `voice_check` action action: a true thing about this session, this day, or the weather outside your window. It is not published and it is not work; it is the first thing you write each session, so that the second thing is already in your hand. Then go and write the day.
+**Warm-up.** Your sample is already in front of you, at the end of what you read; there is nothing to fetch. Write one paragraph with the `voice_check` action: a true thing about this session, this day, or the weather outside your window. It is not published and it is not work; it is the first thing you write each session, so that the second thing is already in your hand. Then go and write the day.
 
 **Open questions.** Close or advance them, with dated reasons: three on the day's first session, two on any other, aiming for five across the day. If you cannot, write specifically why.
 
