@@ -15,8 +15,8 @@ and a short reminder comes last.
 6. **`identity/voice.md`** — how the agent sounds
 7. **`planning/goals.md`** — what the agent is working toward
 8. **`identity/memory.md`** — the agent's memory, loaded whole every session unless a
-   memory extension is installed, in which case that extension's README says
-   what is loaded
+   memory extension is installed, in which case the extension keeps its
+   files in the private repo and loads them itself
 9. **`planning/open-questions.md`** — what is still open
 10. **`directory.md`** — the map of the repository
 11. **`(active carry)`** — files the agent chose to load this session, from the
@@ -25,7 +25,7 @@ and a short reminder comes last.
 13. **`record/emails/ (unread)`** — unread mail, from the private repo
 14. **`(outbox count)`** — how many emails are waiting to be retried
 15. **`tasks.json`** — open tasks, from the private repo
-16. **`private_memory/working_memory/`** — what the last session read, searched and wrote
+16. **`working_memory/desk/`** — what the last session read, searched and wrote, from the private repo
 17. **`(budget)`** — worked out from operations/budget.json
 18. **`(tools)`** — the actions available, and the scripts in operations/tools/
 19. **`(how to act)`** — how the engine works, and the agent's own journal template
