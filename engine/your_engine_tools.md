@@ -6,7 +6,7 @@ Every action the engine can carry out, in the words the agent is shown, each mar
 
 Turn one on or off in `agent_profile.md`; the README explains which setting controls what.
 
-Everything below is ON here.
+**3 of these are OFF** in this installation and are not offered to the agent at all. A tool that is off is left out of the agent's list rather than offered and then refused.
 
 1. ON: **read_file** – Read the full contents of any file in the public or private brain repo. Provide "file_path" (e.g. "site/index.html", "directory.md", "record/journal/template.md"). You may read several files at once. The engine will return their contents to you and give you another turn in the same session to act on them.
 2. ON: **write_journal** – Write a new journal entry as a separate file in `record/journal/` with the format `YYYY-MM-DD-HHMM-session-XXXXX.md`. **Write it in Markdown, as prose** — `##` for a heading, `-` for a list, `**bold**`. Not HTML: the engine renders your Markdown into the page, so tags you write yourself fight with that. Follow the journal structure in the INSTRUCTIONS section. Do NOT append to `record/journal.md`. **The entry is what you wrote, not how you got there** — no `<thinking>` and no planning notes; an entry that is only thinking, or longer than 40,000 characters, is refused and nothing is saved, so the session ends with no journal at all.
@@ -25,9 +25,9 @@ Everything below is ON here.
 14. ON: **get_weather** – The next few days' weather where you live. Today's is already at the top of your session; reach for this when you are planning, or writing about the week.
 15. ON: **add_label** – Add a label to an email. Provide "email_id" and "label".
 16. ON: **remove_label** – Remove a label from an email. Provide "email_id" and "label".
-17. ON: **add_reminder** – Add a reminder. Provide "time" (ISO format) and "message". It reaches your operator **some time after** the moment you name, not at it — usually within a few hours, because the check runs on infrastructure that does not keep to a schedule. Say "I have set a reminder for 8:45pm" rather than promising it will arrive then, and do not use one for anything that has to be punctual.
-18. ON: **list_reminders** – List all pending reminders.
-19. ON: **remove_reminder** – Remove a reminder by ID. Provide "reminder_id".
+17. OFF: **add_reminder** – Add a reminder. Provide "time" (ISO format) and "message". It reaches your operator **some time after** the moment you name, not at it — usually within a few hours, because the check runs on infrastructure that does not keep to a schedule. Say "I have set a reminder for 8:45pm" rather than promising it will arrive then, and do not use one for anything that has to be punctual.
+18. OFF: **list_reminders** – List all pending reminders.
+19. OFF: **remove_reminder** – Remove a reminder by ID. Provide "reminder_id".
 20. ON: **list_dir** – List the files and directories inside a folder of the public or private brain repo — the same places `read_file` reads from. Provide "path" (e.g. "site/posts", "record/journal", "site"). Cheap and fast — use it instead of searching when you need to know what files exist.
 21. ON: **read_thread** – Read a full email conversation by "message_id" (shown on unread emails). Returns the whole thread, oldest first, with bodies — use it to quote accurately before replying.
 22. ON: **list_drafts** – List saved drafts. A draft is not sent until you send it, and the listing gives you each one's id.
